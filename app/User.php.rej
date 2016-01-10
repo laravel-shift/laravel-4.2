@@ -1,0 +1,10 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 7,8
+- 
+- class User extends Eloquent implements AuthenticatableContract, CanResetPasswordContract
+--- 7,9 -----
++ use Illuminate\Database\Eloquent\Model;
++ 
++ class User extends Model implements AuthenticatableContract, CanResetPasswordContract
