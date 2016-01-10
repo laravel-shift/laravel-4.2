@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Http\Controllers;
+
+use Illuminate\Support\Facades\View;
+
+
 class CustomController extends Controller
 {
 
