@@ -1,8 +1,8 @@
 <?php
 
-return array(
+return [
 
-    /*
+	/*
 	|--------------------------------------------------------------------------
 	| Third Party Services
 	|--------------------------------------------------------------------------
@@ -14,18 +14,24 @@ return array(
 	|
 	*/
 
-    'mailgun' => array(
-        'domain' => '',
-        'secret' => '',
-    ),
+	'mailgun' => [
+		'domain' => '',
+		'secret' => '',
+	],
 
-    'mandrill' => array(
-        'secret' => '',
-    ),
+	'mandrill' => [
+		'secret' => '',
+	],
 
-    'stripe' => array(
-        'model'  => 'User',
-        'secret' => '',
-    ),
+	'ses' => [
+		'key' => '',
+		'secret' => '',
+		'region' => 'us-east-1',
+	],
 
-);
+	'stripe' => [
+		'model'  => 'App\User',
+		'secret' => '',
+	],
+
+];
