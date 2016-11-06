@@ -18,6 +18,6 @@ class CustomController extends Controller
 
     public function showWelcome()
     {
-        return View::make('hello');
+        return view('hello');
     }
 }
