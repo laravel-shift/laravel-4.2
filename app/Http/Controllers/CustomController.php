@@ -1,5 +1,8 @@
 <?php
 
+namespace App\Http\Controllers;
+
+
 class CustomController extends Controller
 {
 
